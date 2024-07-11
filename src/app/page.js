@@ -1,9 +1,15 @@
-import React from 'react'
+"use client";
+import React, { useState } from "react";
+import Weather from "../components/Weather";
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+  const [location, setLocation] = useState("");
 
-export default Home
+  return (
+    <div>
+      <Weather location={location} setLocation={setLocation} />
+    </div>
+  );
+};
+
+export default Home;
