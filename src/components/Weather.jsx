@@ -17,7 +17,7 @@ const Weather = ({ location, setLocation }) => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-700 via-yellow-300 to-orange-600 flex items-center justify-center py-10 px-5">
+    <div className="min-h-screen bg-gradient-to-b from-blue-700 via-yellow-300 to-orange-600 flex items-center justify-center py-10 px-5">
       <div className="bg-white rounded-lg shadow-lg p-6 sm:p-8 w-full max-w-md">
         <h1 className="text-xl sm:text-2xl font-bold mb-4 text-center text-gray-800">
           Weather App
