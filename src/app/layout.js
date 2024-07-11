@@ -6,8 +6,8 @@ import '@fontsource/roboto';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Selzing's Portfolio Site",
-  description: "Chloe Selzing-Musa's resume",
+  title: "Weather Whiz",
+  description: "Weather forecast app",
 };
 
 export default function RootLayout({ children }) {
